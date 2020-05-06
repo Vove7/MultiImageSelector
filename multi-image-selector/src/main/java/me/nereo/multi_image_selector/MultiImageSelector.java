@@ -54,6 +54,7 @@ public class MultiImageSelector {
     }
 
     public MultiImageSelector count(int count){
+        mMode = MultiImageSelectorActivity.MODE_MULTI;
         mMaxCount = count;
         return sSelector;
     }
